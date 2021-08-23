@@ -71,9 +71,7 @@ logo='''
  \033[1;91m                             C           A
  \033[1;91m                                   H
                                  
-
 \033[1;90m [ SSU MAKER ANAYA BALOCH ]
-
 \x1b[1;92m=============================
 \x1b[1;93m Coder + Author iS : ANAYA BALOCH
 \x1b[1;93m GANG : SSU MAKER ANAYA
@@ -114,7 +112,7 @@ id = []
 def menu():
 	os.system('clear')
 	print logo
-	print "\033[1;92m         [ SSU MAKER { Pak Hacker } ]"
+	print "\033[1;92m         [ SSU { Pak Hacker } ]"
 	print
         print "\033[1;91m          SELECT ANY ONE SIM NETWORK"
 	print "\033[1;92m[1]\033[1;97m╼╼\033[1;93mMOBILINK     (Press 1)"
@@ -237,7 +235,7 @@ def action():
 	time.sleep(0.5)
 	psb ('[✓] \033[1;96mPlease wait, process is running ...')
 	time.sleep(0.5)
-	psb ('[✓] \033[1;96mAgr idz nai arai to airplane mood on kr k  off  krna ...')
+	psb ('[✓] \033[1;96mAgr idz nai arai to airplane mood on krlo aur off bsdk log ...')
 	time.sleep(0.5)
 	psb ('[!] \033[1;96mPress CTRL Then Press Z To Stop This Process')
 	time.sleep(0.5)
